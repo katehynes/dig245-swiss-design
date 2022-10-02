@@ -1,2 +1,21 @@
 
 /* css */
+.container-xl, .container-md, .container-sm {
+  background-color: #C4C6C8;
+}
+.desktop-top {
+  padding-top: 35px;
+}
+h1 {
+  font-family: sans-serif;
+}
+.desktop-header {
+  font-size: 176px;
+  padding-top: 132px;
+}
+.tablet-header {
+  font-size: 169px;
+}
+.col-xl-4 {
+  background-color: lightpink;
+}
