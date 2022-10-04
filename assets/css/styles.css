@@ -1,13 +1,37 @@
 
 /* css */
-.container-xl, .container-md, .container-sm {
+
+@media only screen and (max-width: 767px) {
+  .phone-header {
+    font-size: 129px;
+    color: blue;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .tablet-header {
+    font-size: 169px;
+  }
+  .col-md-2 {
+    background-color: purple;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .desktop-header {
+    font-size: 184px;
+    text-align: center;
+    padding-top: 132px;
+  }
+}
+
+.container {
   background-color: #C4C6C8;
 }
 .desktop-top {
-  padding-top: 35px;
+    padding-top: 35px;
 }
 h1 {
   font-family: 'Yantramanav', sans-serif;
+  font-weight: bold;
 }
 .desktop-header {
   font-size: 179px;
