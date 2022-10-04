@@ -3,46 +3,39 @@
 
 @media only screen and (max-width: 767px) {
   .phone-header {
-    font-size: 129px;
-    color: blue;
+    font-size: 115px;
+    padding-top: 20px;
+  }
+  .phone-top {
+    font-size: 15px;
+    padding-top: 29px;
   }
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .tablet-header {
     font-size: 169px;
+    padding-top: 36px;
   }
-  .col-md-2 {
-    background-color: purple;
+  .tablet-top {
+    font-size: 16px;
+    padding-top: 33px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .desktop-header {
     font-size: 184px;
-    padding-top: 132px;
+    padding-top: 36px;
+  }
+  .desktop-top {
+    font-size: 18px;
+    padding-top: 35px;
   }
 }
-
 .container {
   background-color: #C4C6C8;
-}
-.desktop-top {
-    padding-top: 35px;
 }
 h1 {
   font-family: 'Yantramanav', sans-serif;
   font-weight: bold;
   text-align: center;
-}
-.desktop-header {
-  font-size: 179px;
-  padding-top: 132px;
-}
-.tablet-header {
-  font-size: 169px;
-}
-.center {
-  justify-content: center;
-}
-.col-xl-4 {
-  background-color: lightpink;
 }
