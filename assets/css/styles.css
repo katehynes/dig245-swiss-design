@@ -18,7 +18,6 @@
 @media only screen and (min-width: 1200px) {
   .desktop-header {
     font-size: 184px;
-    text-align: center;
     padding-top: 132px;
   }
 }
@@ -32,6 +31,7 @@
 h1 {
   font-family: 'Yantramanav', sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 .desktop-header {
   font-size: 179px;
@@ -39,6 +39,9 @@ h1 {
 }
 .tablet-header {
   font-size: 169px;
+}
+.center {
+  justify-content: center;
 }
 .col-xl-4 {
   background-color: lightpink;
