@@ -2,8 +2,10 @@
 /* css */
 
 @media only screen and (max-width: 767px) {
+  /* Note: font size is too large for a Galaxy Fold,
+  but what even is a Galaxy Fold? */
   .phone-header {
-    font-size: 115px;
+    font-size: 80px;
     padding-top: 20px;
   }
   .phone-top {
@@ -38,4 +40,7 @@ h1 {
   font-family: 'Yantramanav', sans-serif;
   font-weight: bold;
   text-align: center;
+}
+a {
+  color: black;
 }
